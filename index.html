@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="caja">
+            <nav>
+                <ul>
+                    <li>
+                        <h1><a href="https://www.aluracursos.com/"><img src="imagenes/Logo.png"></a></h1>
+                    </li>
+                    <li>
+                        <p>Encriptador Alura</p>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <ul class="area">
+
+            <li class="ingresoTexto">
+
+                <textarea class="cajaTexto" name="" id="txtMensaje" cols="30" rows="10"
+                    placeholder="Ingrese el texto aquí..."></textarea>
+
+                <img src="imagenes/exclamation.png" alt="">
+                <p>Solo letras minúsculas y sin acentos</p>
+                <br>
+                <br>
+                <button id="encriptar" class="boton btn-encriptar">Encriptar</button>
+                <button id="desencriptar" class="boton btn-desencriptar">Desencriptar</button>
+            </li>
+
+            <li class="mostrarTexto">
+                <div class="divcaja">
+                    <textarea class="cajaCopy" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <h2>
+                    <img src="imagenes/Muñeco.png" class="fondo">
+                    <p class="msn_1">
+                        Ningún mensaje fue encontrado
+                    </p>
+
+                    <p class="msn_2">
+                        Ingresa el texto que desees encriptar o desencriptar.
+                    </p>
+
+                </h2>
+
+                <button id="copiar" class="boton btn-copy">Copiar</button>
+
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p class="copiright">&#167 Designed by Diego Quiroga - Alura 2022</p>
+    </footer>
+
+    <script src="js/encriptar.js"></script>
+    <script src="js/desenciptar.js"></script>
+    <script src="js/copy.js"></script>
+
+</body>
+
+</html>
